@@ -1,8 +1,9 @@
 Amin Soltani
-Project: printing numbers from 0-10 using C, without using iteration(for,while..) and goto commands.
+Project: printing numbers from 1 to 10 using C, without using iteration(for,while..) and goto commands.
 
-Requirement:
+Environment:
 * 32bit Linux Distribution (Ubuntu 16.04 32 in our example)
+* gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2)
 
 Code:
 -------------------------
@@ -10,7 +11,7 @@ void k(void)
 {
    int x;
    x=2;
-   *(&x+2) =- 34;
+   *(&x+2) -= 34;
 }
 
 void main()
