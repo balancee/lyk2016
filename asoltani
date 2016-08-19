@@ -29,3 +29,6 @@ instructions:
  this would prevent random memory allocations for disassembled codes.
 *gcc -o OutpuBinary Code.c -fno-stack-protector -ggdb
  we need to compile under no stack protection flag.
+ 
+How does it work:
+* let that be a homework for the reader to figure it out!
